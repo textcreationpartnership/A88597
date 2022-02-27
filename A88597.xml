@@ -1,0 +1,727 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clavis medicinæ: or, The practice of physick reformed wherein is described the nature and cause of most diseases and the select way of cure for the same. A method contrary to all authors in being. By Jeremiah Love, doctor of pysick [sic].</title>
+            <author>Love, Jeremiah.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 75 KB of XML-encoded text transcribed from 41 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A88597</idno>
+            <idno type="STC">Wing L3187A</idno>
+            <idno type="STC">ESTC R230714</idno>
+            <idno type="EEBO-CITATION">99896440</idno>
+            <idno type="PROQUEST">99896440</idno>
+            <idno type="VID">154271</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A88597)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 154271)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2408:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Clavis medicinæ: or, The practice of physick reformed wherein is described the nature and cause of most diseases and the select way of cure for the same. A method contrary to all authors in being. By Jeremiah Love, doctor of pysick [sic].</title>
+                  <author>Love, Jeremiah.</author>
+               </titleStmt>
+               <extent>[8], 71, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Henry Brome, at the Gun in St. Paul Church-Yard, at the west end,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Therapeutics --  England --  Early works to 1800.</term>
+               <term>Clinical medicine --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:154271:1"/>
+            <p>
+               <hi>Clavis Medicinae:</hi> OR, The Practice of PHYSICK REFORMED: Wherein is deſcribed The Nature and Cauſe Of moſt DISEASES AND The Select Way of Cure For the ſame. A Method contrary to all Authors in being.</p>
+            <p>By <hi>Jeremiah Love,</hi> Doctor of Pyſick.</p>
+            <q>Ex Herbis fit Mel.</q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Henry Brome,</hi> at the Gun in St. <hi>Paul Church-Yard,</hi> at the Weſt End, 1674.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:154271:2"/>
+            <pb facs="tcp:154271:2"/>
+            <head>TO THE READERS.</head>
+            <opener>
+               <salute>My Friends,</salute>
+            </opener>
+            <p>NO Man was born for himſelf only, but to do good to others, or elſe to receive good from others; yet it happens that moſt men are Self-Seekers in theſe days: I have pra<g ref="char:EOLhyphen"/>ctiſed Phyſick many years, and in the Galenical way; but finding my ſelf often fruſtrated in my expectation, after my Medicines given to my Patients, that at laſt I found nothing certain in all thoſe Woods or Wilderneſſes of Medicines, which I look'd upon then as not well prepared. Then I followed ſome years the Chymi<g ref="char:EOLhyphen"/>cal way of Practiſe, and in it I thought I had excelled many; and likewiſe to ſee all things, I ſtudied Aſtrology, that I
+<pb facs="tcp:154271:3"/>might give Judgment upon the ſick Party as if I had been with him, and both theſe I found to be baſe and erronious, for my Scheme ſhewed me ſometimes little dan<g ref="char:EOLhyphen"/>ger, and then my Chymical Preparation work'd violently, and my Elixirs and Quinteſſences, although I gave but ſome drops, yet I found them to be too hot, and inflaming the Bodies of my Patients, and ſo they cauſed very bad Symptoms, ſo I found no reality in either, and ſo I left them off. Then I bent my mind to ſtudy to find out a way to help Nature, with means that were ſafe and eaſie, which at laſt I attained to, by the bleſſing of God to me. And then though I found at the Decumbiture of the ſick party, that the Lord of the Eighth was in conjunction with the Lord of the Aſcendant, and like<g ref="char:EOLhyphen"/>wiſe if I found the Lord of the Aſcendant combuſt in the Eighth, which we conclude in Aſtrology, death approaching. Yet by theſe means uſed, I found a ſtrange alte<g ref="char:EOLhyphen"/>ration for a man to be even at Death's
+<pb facs="tcp:154271:3"/>door by all mens apprehenſion, and in an hour or two to be quick and lively, and without pain. Shall I hide theſe Myſteries? A Talent lent me for a time, and I bury it in oblivion? God forbid. My Life is ſhort, therefore will I publiſh things of great moment, and ſhew you the way, or a new Method in practiſing Phyſick, that others which are more ſharp ſighted, and of quicker Wits, may not be idle, but to dive into Nature's Secrets, and to find out ſome new things, which was not before. Shall we be always led by the Noſe of the Heathens, when we have both Senſe, and Reaſon, and Scrip<g ref="char:EOLhyphen"/>ture to guide us in the Light? And here in this Treatiſe I have ſhewed you Expe<g ref="char:EOLhyphen"/>rience, grounded upon Reaſon and Senſe; nay a way ſo ſafe, that a man may follow his occaſions, and not keep the Houſe, or drink gallons of Poſſet-Drink, or have Nurſes to attend him, or ſuch-like; I hope I have put an adjuvant hand to make
+<pb facs="tcp:154271:4"/>rough things ſmooth; and rectifie thoſe manifold Errors which are uſed in thoſe which practiſe Phyſick. What cauſeth, I pray you, that ſo many Quacks and Empi<g ref="char:EOLhyphen"/>ricks are ſuffered, nay applauded? And likewiſe ſilly Women now a days venture to cure the Body by internal Medicines. What Religion is there that we ſhould tempt the Lord our God in deſtroying our ſelves, who are the Work of his hands? I tell you it is as great a Sin to put our lives into theſe Triobolary Empiricks hands, as for a man to murther him<g ref="char:EOLhyphen"/>ſelf.</p>
+            <p>Read this little Book of mine, read it through, and mind what you read: you have in it the very Key of Natures Se<g ref="char:EOLhyphen"/>crets; a few Medicines, but ſo groun<g ref="char:EOLhyphen"/>ded upon Reaſon, and Senſe, and Experi<g ref="char:EOLhyphen"/>ence, that it comprehends the whole Body of Phyſick, as it was ordained in the be<g ref="char:EOLhyphen"/>ginning: Why then ſhould we be lazy, and know no more than what is beaten
+<pb facs="tcp:154271:4"/>into us, or tread onely in our Forefathers ſteps, though they went into the mire of Ignorance, and be contented with <hi>Ipſe Dixit?</hi> Truly their Writings have much Learning and Ingenuity, ſo they have much Obſcurity and Suppoſitions of thoſe things which have little real truth in them. Now my Brethren, my hearty deſire is, that this Treatiſe may be uſeful unto all thoſe that ſhall willingly read it: What I have done in it is Methodical, and I leave it to others to judge. But if you miſlike any thing herein, write your mind, and deliver it to the Printer, and I will be very willing by Writing again to ſatisfie thee, or elſe I will thankfully accept of thy Advice, and confeſs my fault: for, <hi>Humanum eſt errare,</hi> The beſt may erre; ſome have before me, and others will after me: However let the Will be accepted for the Deed; which if I find, (God aſſiſting me with Life and Strength) I ſhall endeavour to publiſh
+<pb facs="tcp:154271:5"/>ſome other Tracts uſeful and neceſſary for young Practitioners.</p>
+            <q>
+               <l>Hic labor, hoc opus eſt—</l>
+               <l>—Noveris ſi rectius iſtis,</l>
+               <l>Candidus imperti; ſi non,</l>
+               <l>His utere mecum.</l>
+            </q>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:154271:5"/>
+            <head>
+               <hi>Clavis Medicinae:</hi> OR, The Practice of PHYSICK REFORMED.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <p>I Purpoſe here in this ſmall Treatiſe to give the moſt Judicious Reader, and all Lovers of the Art of Phy<g ref="char:EOLhyphen"/>ſick, Satisfaction; and likewiſe lay open to the meaneſt capacity, the Cauſes, Symptoms, and Sings of moſt Diſeaſes of the Body of Man, and like<g ref="char:EOLhyphen"/>wiſe the choiceſt and ſelect Remedies for the perfect and ſpeedy cure of them: A me<g ref="char:EOLhyphen"/>thod I think as yet no man ever uſed, as I could hear or read of.</p>
+               <p>Firſt, I here declare unto thee an Apo<g ref="char:EOLhyphen"/>zem which I have made choice of this ma<g ref="char:EOLhyphen"/>ny
+<pb n="2" facs="tcp:154271:6"/>years, for the beſt and ſafeſt working, and the good ſucceſs of it: A Medicine ſo prepared and corrected, that it doth (without any danger, pain, or moleſtation of the Body whatſoever) evacuate and car<g ref="char:EOLhyphen"/>ry off all corruption and filthy humours out of the Body. The vertue of this Apozem being ſo wonderful, and ſo well pleaſing to the Stomachs of all thoſe that ever took thereof, that I ſhall do my Country much wrong, if I ſhould any longer keep from them ſo great a treaſure.</p>
+               <p>I have delivered my Bill for the making of it, only to Mr. <hi>Fiſher,</hi> who lives in St. <hi>Olaves</hi> Pariſh in <hi>Southwark London,</hi> Chirur<g ref="char:EOLhyphen"/>gion, a man whom I have a great love and reſpect for, and likewiſe for many years I have made tryal of his juſt and honeſt deal<g ref="char:EOLhyphen"/>ing, and his good Judgment in compoſing of Medicines, and in chuſing the beſt In<g ref="char:EOLhyphen"/>gredients. And when any man hath a mind to make uſe of it, I have ſtiled it by the name of <hi>Panax Angliae,</hi> by which name you may have it.</p>
+               <p>The Uſe of this Apozem I ſhall declare in every Chapter, where I treat of the Diſeaſe particularly, and the way of cure.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="3" facs="tcp:154271:6"/>
+               <head>CHAP. II.</head>
+               <p>IF any man ſhould think it ſtrange, or as it were impoſſible, that one Medicine ſhould be good for ſo many Diſeaſes; Know this, that our old excellent Writers, being Fathers of Phyſick, have left their Monu<g ref="char:EOLhyphen"/>ments of Learning to us, which ſhew us divers Confections, ſome purge Choler, ſome Flegm, and ſome Melancholy; ſo that we muſt all conclude that they are good in all cholerick, flegmatick, and melancholick Diſeaſes; ſo after their manner have I in<g ref="char:EOLhyphen"/>vented this incomparable Apozem.</p>
+               <p>And although all our Fathers of Phyſick being excellent men, have left their Re<g ref="char:EOLhyphen"/>ceipts behind, for compoſing all ſorts of Phyſick, for all Conſtitutions and Comple<g ref="char:EOLhyphen"/>xions, yet I truſt we, who as it were ſtand upon their ſhoulders, may ſee farther than they, if we do ſtrive, and be induſtrious in thoſe Studies.</p>
+               <p>Now if we give this Apozem to ſtrong Bodies, we give a greater quantity, and oft<g ref="char:EOLhyphen"/>ner;
+<pb n="4" facs="tcp:154271:7"/>in weak Bodies, leſs is required.</p>
+               <p>If we are to cure the Head or Stomach, we order to take our Apozem an hour be<g ref="char:EOLhyphen"/>fore they riſe, that it may continue the lon<g ref="char:EOLhyphen"/>ger in the place where the corruption is, and ſo it will work effectually; whereas if one walketh preſently after the taking of it, it ſlippeth away, being liquid, and leaveth the work undone.</p>
+               <p>Wherefore this Apozem being of a thin ſubſtance, gathers it ſelf eaſily with the cor<g ref="char:EOLhyphen"/>ruption which it findeth in the Stomach, and diſſolves the ſame; whereas Pills, and other Compoſitions, require firſt to be diſ<g ref="char:EOLhyphen"/>ſolved themſelves, which is a great trouble to Nature, and ſo many times works upon Nature two or three days after, leaving bad Symptoms behind them, which you ſhall never find by taking this my Apozem.</p>
+               <p>Although this Apozem is a very great cleanſer of the Body from filthy corrupt Hu<g ref="char:EOLhyphen"/>mours, yet I confeſs it is no Univerſal Me<g ref="char:EOLhyphen"/>dicine for all Diſeaſes (as your Triobolary Empiricks declare) for this requires help, as you ſhall ſee in the Chapter following, to as much brevity as can be required by few yet ſelect Medicines, and what no Artiſt I ima<g ref="char:EOLhyphen"/>gine) dares contradict, as you may ſee by the
+<pb n="5" facs="tcp:154271:7"/>ſpeedy cure. I hate multiplicity on the other ſide, made by Chymiſts and Galeniſts now a days, and ſome that are neither of the two, moſt of which Medicines are as Clouds without Rain. A fair Tongue and a Pluſh Coat muſt needs do well; but for Vertue, away with it; <hi>Ibis Homere foras, Homer</hi> him<g ref="char:EOLhyphen"/>ſelf muſt ſing Ballads.</p>
+               <p>The publiſhing of this my Book is onely to ſhew what Artiſts can and may do: I would have them take more pains to find the right way of practiſing Phyſick, and not to fill the Bodies of poor Souls with a Maſs of hotch-potch, one meſs contrary to ano<g ref="char:EOLhyphen"/>ther, and never ſee the operation of any thing; and not Quack-like, carry a Box of Pills in their Pockets to cure all Diſeaſes, and ſo for a little filthy lucre called money, as too many uſe now a days, thinking with themſelves there is no Day of Judgment. What ſhall I ſay then? Shall we ſo conti<g ref="char:EOLhyphen"/>nue in this Sin? God forbid.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="6" facs="tcp:154271:8"/>
+               <head>CHAP. III. Directions.</head>
+               <list>
+                  <item>1. COncerning the taking of this my precious Apozem, You need not be ſo ſtrict in keeping your Chamber as you do in taking other Phyſick; you may walk a<g ref="char:EOLhyphen"/>broad, if your diſtemper will permit you, but keep your ſelf warm, and forbear drink<g ref="char:EOLhyphen"/>ing.</item>
+                  <item>2. You may take it at any time when you find it requiſite, either hot or cold, as your Stomach can bear it.</item>
+                  <item>3. Children muſt take little, for a ſmall Veſſel is ſooner emptied than a great, and likewiſe the humours are more fluxible.</item>
+                  <item>4. Thoſe that are full of ill humours may take it a week or more, both Spring and Fall.</item>
+                  <item>5. Always take ſomewhat that is warm, in two hours after, for it will help the ope<g ref="char:EOLhyphen"/>ration of the Medicine.</item>
+                  <item>6. If it work not the firſt time, you may take more the next day ſafely. And if
+<pb n="7" facs="tcp:154271:8"/>thy Body be always looſe, take the leſſer quantity.</item>
+                  <item>7. A ſpoonful of this Apozem will in moſt Bodies give one ſtool, now you may take three or four or five or more ſpoonfuls at a time, as you think fit.</item>
+                  <item>8. When you take this Apozem, abſtain from all ſorts of Wine, hot Spices, ſalt Meats, and raw Fruits, and green Herbs, and all cold things.</item>
+                  <item>9. Take it not at the change and full of the Moon, for then Nature is weak.</item>
+               </list>
+            </div>
+            <div n="4" type="chapter">
+               <head>CHAP. IV. Concerning the Diſeaſes of the Head and Face.</head>
+               <p n="1">1. THe Head-ach proceeds from many Cauſes, as ſometimes from Heat, and ſometimes from Cold, both which be<g ref="char:EOLhyphen"/>ing kown, is eaſily prevented; ſo that they happen ſeldom, and do not ſtay long.</p>
+               <p n="2">2. The Head-ach proceeds from fulneſs, <hi>&amp;c.</hi> when men live idly, and fill their
+<pb n="8" facs="tcp:154271:9"/>Bodies exceſſively, as like a Bladder blown up.</p>
+               <p n="3">3. The Head-ach proceeds from filthy corrupt humours, which abounds in great quantity in the Body, which two laſt are thus perfectly cured, as eaſie as a man can waſh his hands with a Baſon of Water:</p>
+               <p>
+                  <hi>Take four or five ſpoonfuls of this my Apo<g ref="char:EOLhyphen"/>zem every morning for ſix or ſeven days toge<g ref="char:EOLhyphen"/>ther, for ſo by that means thou ſhalt cleanſe thy ſelf of all filthy corrupt Humours that remain in thy Body; but obſerve the Directions pre<g ref="char:EOLhyphen"/>ſcribed in the third Chapter.</hi>
+               </p>
+               <p>After the ſame manner is cured the Giddi<g ref="char:EOLhyphen"/>neſs of the Head, and red ſore watery Eyes.</p>
+               <p n="4">4. The Head-ach proceeds ſometimes from the fume of corrupt Humours, and not from the humours themſelves; for the corruption lying long in the Stomach, caſteth up to the brain evil vapours, which offend it, it be<g ref="char:EOLhyphen"/>ing of all parts moſt ſenſible.</p>
+               <p>For the Cure of which,</p>
+               <p>
+                  <hi>Take four ſpoonfuls of this Apozem an hour before you riſe, and ſleep not, ſo do it for three days.</hi>
+               </p>
+               <pb n="9" facs="tcp:154271:9"/>
+               <p n="5">5. The Headach comes by reaſon of the Excrements tarrying too long in the Body; for when thou haſt taken thy Dinner, or the like, firſt Nature taketh to its ſelf for its nouriſhment the thin and pureſt part, and leaves the reſt as groſs and corrupt; and then theſe Excrements tarrying longer than uſual, ſendeth noyſome vapours to the Brain, and offends it; ſo that he that is much coſtive, can never be long in Health.</p>
+               <p>For Cure of which,</p>
+               <p>Take ſuch a quantity of this Apozem as will give thee one ſtool a day more then or<g ref="char:EOLhyphen"/>dinary; and likewiſe take a ſpoonful an hour before Supper: for in ſo doing thou ſhalt toll Nature to do her work without help.</p>
+               <p>So now by what hath been ſaid concern<g ref="char:EOLhyphen"/>ing the Headach and ſore Eyes, you may if you will endeavour to know a little more than is told you, you may with a little Ad<g ref="char:EOLhyphen"/>dition to this Apozem, cure Apoplexies, Pal<g ref="char:EOLhyphen"/>ſies, Epilepſies, Incubus, Frenzy, Lethargy, and what not, if it belongs to the Head.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="10" facs="tcp:154271:10"/>
+               <head>CHAP. V. For Red Faces, Pimples, and other Cor<g ref="char:EOLhyphen"/>ruption ariſing in them, and likewiſe the Morphew.</head>
+               <p>IT is a ſtrange thing, that the Face which is the grace and beauty of a man, ſhould be ſo greatly diſgraced by corrupt blood, and all the reſt of the parts of the Body clean and fair: The common ſaying is, The Liver is inflamed, which in many I think is the only cauſe, ſome have it from their Parents, and ſome by drinking and ſotting, and others that are mighty baſhful, and their blood being corrupt withal, ſo the Blood hath oft recourſe to their Faces, as a witneſs to teſtifie, and ſo returning away ſuddenly, leaveth ſome groſs corruption behind, which Nature there caſteth out.</p>
+               <p>For the Cure of which, take theſe Dire<g ref="char:EOLhyphen"/>ctions, which never failed.</p>
+               <pb n="11" facs="tcp:154271:10"/>
+               <p>Firſt for three or four days take five ſpoonfuls of this Apozem, which will draw the courſe of humours from thy Face; and then I preſcribe thee an Oyntment which is admirable good for the ſame, you ſhall have it made by Mr. <hi>Fiſher</hi> aforeſaid. And pray uſe it after this manner: Anoint your Face where the Pimples and corrupt Blood lodg<g ref="char:EOLhyphen"/>eth, every night gently with this Oyntment, cold with your Finger, the next morning moiſten your Face with a little new Milk, and wipe it gently; uſe this way a fort<g ref="char:EOLhyphen"/>night, and you ſhall find an alteration. Af<g ref="char:EOLhyphen"/>ter the ſame manner you may cure the Mor<g ref="char:EOLhyphen"/>phew, for it cleanſeth and purifieth the Skin wonderfully.</p>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="12" facs="tcp:154271:11"/>
+               <head>CHAP. VI. For the Itch and Scabs, Byles, <hi>&amp;c.</hi> Le<g ref="char:EOLhyphen"/>proſie, Small Pox, Meaſles.</head>
+               <p>SOme are troubled with this, having it by Nature from their Parents, ſome by long and bad Diet, others by infection, as by keeping company with thoſe that have their Bodies inclined to Byles, Scabs and Itches.</p>
+               <p>Now the way of curing by our Artiſts (ſo called) now a days, is to purge firſt, and then bleed, and after to uſe ſome Mercurial Ointment; and in many Bodies all this will not do; if it doth, the next Spring they are moſt commonly worſer than they were be<g ref="char:EOLhyphen"/>fore. Now I will ſhew thee Art it ſelf, as it was at firſt inſtituted, and thou ſhalt as eaſily cure this diſtemper by ſmall means, as when thou art a dry to drink a Cup of Beer to quench thy thirſt.</p>
+               <p>Firſt, Take this Apozem about four ſpoonfuls every morning for three days,
+<pb n="13" facs="tcp:154271:11"/>and take ſomething that is hot two hours after. The fourth day take of white Briony-Root half an ounce, a ſprig or two of Mace, boil this gently in a pint of Ale, ſtrain it out, and ſweeten it with Sugar, drink a good draught of this well warmed in thy Bed, and ſweat three or four hours upon it, and in thy ſweat drink off the reſt of the Pint hot; if a Child leſs, as age doth require: Uſe this way three days together, &amp; longer, if the Diſeaſe have been of long continuance; and let the Patient in ſweating rub his Body with warm Cloths, to take ſuch corruption as cometh out by ſweating: after this man<g ref="char:EOLhyphen"/>ner the Scabs will fall off miraculouſly.</p>
+               <p>You may cure the Leproſie, all ſcald Heads, Scurffs, and likewiſe prevent any one from having the Small Pox or Meaſles, that they ſhall not have them at all.</p>
+               <p>I would have all men take notice that this way is the only Galenical way in practiſing the true Phyſick; and not to fill their Bo<g ref="char:EOLhyphen"/>dies with Drugs, or with Mercurial or An<g ref="char:EOLhyphen"/>timonial Preparations. And you ſhall ſee in every Chapter a contrary method to all Authors extant.</p>
+            </div>
+            <pb n="14" facs="tcp:154271:12"/>
+            <div n="7" type="chapter">
+               <head>CHAP. VII. For a Cough, or ſhortneſs of Breath. For Surfeits by taking Heat and Cold. For People that are very flegmatick, and ſtuffed up with Flegm, and for thoſe that are entring into a Conſumption.</head>
+               <p>
+                  <hi>GAlen</hi> would have a cold diſtemper of the Inſtrument of Breathing to be the only cauſe of the Cough; ſometimes a Hu<g ref="char:EOLhyphen"/>mor diſtilling from the Head to the <hi>Trachea Arteria,</hi> and ſharpneſs only of the Cuticle of <hi>Trachea Arteria</hi> going about within, doth provoke the Cough; ſometimes it is cauſed through cold and flegm deſcending upon the Lungs; ſometimes it happens through heat diſſolving the ſuperfluous matter of the Brain, and ſo through a Catarrhal Diſtilla<g ref="char:EOLhyphen"/>tion the Cough is excited.</p>
+               <p>Now my Brethren, we all know that Cold is moſt commonly the original of moſt Diſ<g ref="char:EOLhyphen"/>eaſes; for if the Body be full of groſs cor<g ref="char:EOLhyphen"/>rupt Humours, having taken a great cold,
+<pb n="15" facs="tcp:154271:12"/>preſently there ariſeth a putrid Feaver, ſome<g ref="char:EOLhyphen"/>times malignant, and ſometimes peſtilen<g ref="char:EOLhyphen"/>tial. Now judge you, if a Medicine will disburthen and carry out of the body this flegmatick corruption, without weakning of Nature; and in the higheſt Feavers, I truſt you will grant to me it is the onlieſt means to be uſed.</p>
+               <p>Then take two ſpoonfuls of this my A<g ref="char:EOLhyphen"/>pozem every day in the morning, or if oc<g ref="char:EOLhyphen"/>caſion permit, once in two days: this will I will aſſure you unlade the body ſweetly of this corruption.</p>
+               <p>And now will I give thee a Pectoral Drink, which thou mayſt drink as often as thou wilt, which will quench thy thirſt, bring thy body to its natural heat, and cure thee of thy cold.</p>
+               <p>Take of Coltsfoot an handful, Hyſop half an handful, Angelica roots bruiſed a dram, Liquoriſh ſcraped and bruiſed two ounces, Anniſeed half an ounce: boil this in two quarts of Spring-water gently half an hour, ſtrain it out, and put two ounces of fine Sugar, drink freely of it warm when occaſion ſerves: by taking this Pe<g ref="char:EOLhyphen"/>ctoral Drink hot mornings and evenings,
+<pb n="16" facs="tcp:154271:13"/>the flegm will come up eaſily, and is a won<g ref="char:EOLhyphen"/>derful Preſerver for the Lungs, keeping them from putrefaction.</p>
+               <p>Now, good people, there are many in this City of <hi>London,</hi> that are troubled with the ſhortneſs of breath, and have their Lungs very dry, ſo that it is a continual pain and labour for them to breathe, or as the ſaying is, to fetch their wind: Firſt, I adviſe them to take for three or four days, three or four ſpoonfuls of this my Apozem, which will cleanſe the inward parts of moſt of the corruption; then take this Pectoral Drink named before in this manner follow<g ref="char:EOLhyphen"/>ing.</p>
+               <p>Take a quarter of a pint of the Pectoral Drink, and put therein the yolk of a new<g ref="char:EOLhyphen"/>laid Egg, and drink it faſting, and faſt an hour after it: if thou haſt been troubled with this grief many years, by uſing the Medicines ſo, will open and moiſten thy Lungs, and help thee: you cannot uſe it too long, for it is both Meat and Medi<g ref="char:EOLhyphen"/>cine. After the ſame manner are cured all thoſe that are entring into a Conſumption: But with this Proviſo, they muſt abſtain from all Spices, Salt Meats, and all Wines, for they fret and inflame their Bodies, and
+<pb n="17" facs="tcp:154271:13"/>withal let them take care they over-heat not their Bodies with any violent exerciſe, that they ſtrain not their Lungs by violent Coughing; wherefore avoid all Cheſnuts, and all raw fruits, as inimical to them; for this Diſeaſe is difficult, and therefore great care is to be uſed in their Diet, <hi>&amp;c.</hi>
+               </p>
+               <p>Now if any man by violent exerciſe heat his body exceſſively, and when he is ſo hot, ſuddenly cool himſelf by drinking, by reſt, or any other ways, ſo that this man falleth ſick even unto death, and it he eſcape, he remaineth weak and ſickly du<g ref="char:EOLhyphen"/>ring his life. Now, my Friends, Nature miſliketh nothing more than a ſudden change from one contrary to another, to wit, from heat to cold. Wherefore I con<g ref="char:EOLhyphen"/>clude by reaſon and experience, that the beſt way to cure a man in this extremity, is to bring his body orderly again to the ſame heat wherein it was when he took cold, which thou ſhalt do after this manner.</p>
+               <p>Take half a Pint of the aforenamed Pe<g ref="char:EOLhyphen"/>ctoral Drink, and diſſolve in it two drams of Venice-Treacle, let the Patient drink half of it hot faſting, and ſweat four or five hours upon it, and in his ſweat let him drink the reſt, and be ſure abate his
+<pb n="18" facs="tcp:154271:14"/>ſweat very gently, and beware he take no cold: For three mornings afterward let him drink a quarter of a pint, with a dram of Venice-Treacle, hot two hours before he riſe, and keep his body warm without ſweating. But if the party have been long ſick, and ſo weak that he is not able to ſweat as before, then aſſure your ſelf there is little hopes of life.</p>
+               <p>Note, that if the party be coſtive, give him three or for ſpoonfuls of my Apozem, for that will eaſe and disburthen Nature, and let him drink ſome warm Broth or Water-Grewel an hour or two after.</p>
+               <p>
+                  <hi>Courteous Reader,</hi> I would willingly root out the Tares of bad Phyſick, leſt they over-grow the brave Corn of real Medi<g ref="char:EOLhyphen"/>cine.</p>
+            </div>
+            <div n="8" type="chapter">
+               <pb n="19" facs="tcp:154271:14"/>
+               <head>CHAP. VIII. For the Heart-burning.</head>
+               <p>I Shall content my ſelf (as moſt people call it) with the ordinary name of this Diſeaſe, which belongs not to the Heart, but only to the Stomach; and thoſe who are troubled with this Diſeaſe, are com<g ref="char:EOLhyphen"/>monly at eaſe after they have eaten, but af<g ref="char:EOLhyphen"/>ter digeſtion, they feel a continual heat or bitterneſs in the mouth of their ſtomachs: they often are troubled with belching, and ſometimes an inclination to vomit. It con<g ref="char:EOLhyphen"/>tinues long in ſome people, and in o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hers it comes every foot, eſpecially by eating Fat, Salt, and Cholerick Meats.</p>
+               <p>For cure,</p>
+               <p>Firſt Forbear thoſe Meats and Drinks after which thou art moſt troubled, for I will aſſure thee they will not make good Blood, and then yon ſee Nature will not like it: for if good Diet will help thy Di<g ref="char:EOLhyphen"/>ſtemper, never take Phyſick for the ſame:
+<pb n="20" facs="tcp:154271:15"/>but if thy long evil Diet hath laden thy ſtomach with Hot, Salt, and Cholerick Hu<g ref="char:EOLhyphen"/>mours, which do cauſe this Heart-burn<g ref="char:EOLhyphen"/>ing, (as 'tis named).</p>
+               <p>Then take five or ſix ſpoonfuls of this my Apozem every morning for three days, and ſo thou ſhalt cleanſe thy ſtomach per<g ref="char:EOLhyphen"/>fectly, which I avouch to thee will be a perfect and ſpeedy Cure, and not to eat Chalk, or to take ſome cooling Juleps or any ſuch Slops, which will hurt more than heal.</p>
+            </div>
+            <div n="9" type="chapter">
+               <pb n="21" facs="tcp:154271:15"/>
+               <head>CHAP. IX. For the Cholick and Wind, gnawing of the Stomach and Guts, and all Cor<g ref="char:EOLhyphen"/>ruption that cauſeth Wind.</head>
+               <p>ALL thee Diſtempers proceed from corrupt and filthy ſlimy Humours, which ſticks to the inner part of the Sto<g ref="char:EOLhyphen"/>mach, and the Inteſtines. Now the com<g ref="char:EOLhyphen"/>mon courſe of people when they are af<g ref="char:EOLhyphen"/>flicted, they boil in ſome Wine, Pepper, Ginger, and other hot Spices, and all hot Seeds, which is meer madneſs, for theſe hot things are proper to warm a cold Sto<g ref="char:EOLhyphen"/>mach, and make it apt to digeſt, being moderately uſed, than to cleanſe it being full of corruption, and theſe hot things are only proper for old people that have their natural heat decayed, ſo that Nature fail<g ref="char:EOLhyphen"/>eth; wherefore we are forced to ſeek help by Art. Now our Phyſitians follow this road, firſt, an Emollient and Carminative Cliſter is to be adminiſtred, then a Cor<g ref="char:EOLhyphen"/>dial
+<pb n="22" facs="tcp:154271:16"/>for to cauſe reſt, and likewiſe Dia<g ref="char:EOLhyphen"/>phoretical means, and then for ſome day a maſſe of Pills; and if this do not the work, make a Fontinel in the Leg, and then in little time as bad as before. If an Empirick light on ſuch a Patient, pre<g ref="char:EOLhyphen"/>ſently he hath an univerſal Pill, which they muſt take every day, and at night three or four drops of this Elixar, which is a Pan<g ref="char:EOLhyphen"/>pharmacon, and indeed all good for no<g ref="char:EOLhyphen"/>thing, and then it is a Palliative Cure, as they call it.</p>
+               <p>Now I pray hear a little Reaſon, and follow Experience, her Lady and Gover<g ref="char:EOLhyphen"/>neſs: Take five or ſix ſpoonfuls of this my Apozem, if the party be any thing ſtrong, or elſe leſs, and ſo do five or ſix days, and thou ſhalt ſee that it will cleanſe thy Sto<g ref="char:EOLhyphen"/>mach and Inteſtines of all its filth, and thou ſhalt be perfectly cured without Cli<g ref="char:EOLhyphen"/>ſters, or Iſſues, or Pills, or any univerſal Elixars. And for the future, I would ad<g ref="char:EOLhyphen"/>viſe thee to avoid all windy and ſlimy meats, that thou mayſt prevent thoſe Diſ<g ref="char:EOLhyphen"/>eaſes.</p>
+            </div>
+            <div n="10" type="chapter">
+               <pb n="23" facs="tcp:154271:16"/>
+               <head>CHAP. X. For Surfeiting by over-eating.</head>
+               <p>SOme men, by long faſting, coming to Dainty Fare, ſuch as he is not uſed to eat, being very hungry, eateth over much, and cloyeth Nature, ſo that Nature refuſeth any digeſtion, as a man having a burthen too heavy for him to bear, does not ſo much as offer to lift it: this Diſtemper proceeds from quantity: ſo likewiſe the evil quali<g ref="char:EOLhyphen"/>ty of Meats do cauſe a man to ſurfeit, as Meat not roſted: ſo likewiſe Freſh Her<g ref="char:EOLhyphen"/>rings, Fat Pyes, heavy Cake-bread, and the like, cauſeth great ſickneſs.</p>
+               <p>For the Cure of theſe,</p>
+               <p>If the matter of the Diſeaſe lodgeth ſtill in the Stomach, give him a draught of warm water, with two ſpoonfuls of Sallet-Oyl, which will cauſe him to vomit: if it work not quickly, help it with your finger by thruſting it to his throat, and after vo<g ref="char:EOLhyphen"/>miting, give him ſome hot Broath, and let
+<pb n="24" facs="tcp:154271:17"/>him for three or four days eat not much in quantity, and likewiſe what is hot, and of good digeſtion.</p>
+               <p>But it this matter hath paſſed the Sto<g ref="char:EOLhyphen"/>mach without vomiting, and there be little or no digeſtion, ſo that now a vomit will do no good:</p>
+               <p>Then take half a pint of Canary-Wine, and burn it with a ſprig of Roſemary and ſome Mace, and put in it two drams of <hi>London</hi>-Treacle, and ſome Sugar, and drink it off in a morning hot, and ſweat three or four hours in your Bed, according to the ſtrength of the patient, and in his ſweat let him drink poſſet-drink hot; for I promiſe you this way will make a per<g ref="char:EOLhyphen"/>ſed digeſtion through the whole body, of whatſoever he did ſurfeit of. This way is eaſie and good, and I imagine Reaſon will conduct you ſo far, that it muſt needs do the work without a belly full of Drugs.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="25" facs="tcp:154271:17"/>
+               <head>CHAP. XI. For continual Vomiting after Meat.</head>
+               <p>THere are too many now a days that deſtroy their own Natures; ſome mind the filthy lucre of this world, that they will not allow themſelves time to eat, although they have meat, and likewiſe an appetite, and then in time they would eat, but then there is no appetite. Some do fill their Carcaſes ſo much with Drink, and ſmoaking that ſtinking weed called To<g ref="char:EOLhyphen"/>bacco, that they cannot eat, but before they come to many years, Victuals then will not go down, no not ſo much as Broth, this is ſad!</p>
+               <p>Now there are two ſpecial cauſes of this Diſeaſe: The one is, When the firſt Veins which receive the Nutriment from the Sto<g ref="char:EOLhyphen"/>mach, are ſtopped: The other is, When the Body is long bound, and the excrement very hard, ſo that the Patient ſeldom goes to the ſtool: In ſome people it is ſo bad, that they never go to ſtool, but that which
+<pb n="26" facs="tcp:154271:18"/>remaineth after digeſtion, comes up by vomit.</p>
+               <p>For cure, take notice of theſe Obſerva<g ref="char:EOLhyphen"/>tions:</p>
+               <p>Firſt, Take four ſpoonfuls of this my Apozem faſting: if that work not that day, the next take five, and ſo forth, al<g ref="char:EOLhyphen"/>ways increaſing the quantity until it work: And when it hath operated, take an hand<g ref="char:EOLhyphen"/>ful of Parſley, bruiſe and boil it in a pint of White-wine a quarter of an hour and better, then ſtrain it out, and put ſome Sugar in it, and the next morning drink a good draught of this hot, and keep your bed, and ſweat three or four hours, and in your ſweating, drink off the reſt. After that, let him take faſting two ſpoonfuls of my Apozem, and let him continue it ſo till his body be ſoluble, and that his ex<g ref="char:EOLhyphen"/>crement be not dry, or ſtay too long in his body.</p>
+               <p>Now, my Friends, the White-wine thus ordered and taken, and ſweating withal, openeth the firſt Veins, and maketh a paſ<g ref="char:EOLhyphen"/>ſage into the body. The Apozem of mine
+<pb n="27" facs="tcp:154271:18"/>draweth down gently the excrement, and bringeth Nature to her uſual courſe to all admiration, and cleanſeth the ſtomach of that corruption which is the very cauſe of this diſeaſe.</p>
+            </div>
+            <div n="12" type="chapter">
+               <pb n="28" facs="tcp:154271:19"/>
+               <head>CHAP. XII. For want of Appetite.</head>
+               <p>FIrſt, when the firſt veins do not ſuck, which is their natural action, by the which they receive food for the nouriſh<g ref="char:EOLhyphen"/>ment of the whole body: ſecondly, fat and groſs bodies, which are always ſtuffed, and ſo full, that Nature ſeemeth to be con<g ref="char:EOLhyphen"/>tented with what ſhe hath, and hath little deſire of more. For cure of this, remem<g ref="char:EOLhyphen"/>ber theſe Obſervations, ſmall but pithy<g ref="char:punc">▪</g> Take for ſome days three ſpoonfuls every morning of this harmleſs Apozem, and in little time thou wilt find thy ſelf exceed<g ref="char:EOLhyphen"/>ing hungry; it may be Beef will go down, when Chicken would not before: but if thou haſt not an appetite preſently after ta<g ref="char:EOLhyphen"/>king of this Medicine, then take the White<g ref="char:EOLhyphen"/>wine as is mentioned in the foregoing Chapter, after the ſame Directions.</p>
+            </div>
+            <div n="13" type="chapter">
+               <pb n="29" facs="tcp:154271:19"/>
+               <head>CHAP. XIII. For Catarrhs and Rheums.</head>
+               <p>MAny people are troubled with this diſeaſe, but eſpecially Scholars, and other Students, idle perſons, and thoſe Trades-men that ſtir little. Now the fa<g ref="char:EOLhyphen"/>ſhion is to have an iſſue or two; nay, theſe iſſues are to have many peaſe in them, which things were forbidden in the Levitical Law, as much as if he had the Plague: but now there is great alteration, I ſhall preſcribe you a way (if you will hear reaſon) to cure your ſelf without theſe naſty Eylet<g ref="char:EOLhyphen"/>holes in your skin, and I imagine a great deal more wholſomer, and better for your health for the future.</p>
+               <p>My Brethren, the cure conſiſteth more in your own good Government, than in much taking of Phyſick, which I utterly abhor, and I truſt many diſcreet people with me. Now for this diſtemper, ob<g ref="char:EOLhyphen"/>ſerve theſe infallible Rules.</p>
+               <pb n="30" facs="tcp:154271:20"/>
+               <list>
+                  <item>1. Uſe labour and exerciſe, for by <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> thou ſhalt ſtir up natural heat, and conſum<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap> thoſe watry humours which cauſeth thi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Rheum and Diſtillations: if thou canſt no<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> walk abroad, buſie thy ſelf with ſome action in the houſe, this will prevent crudities and it is the principal way in part to pre<g ref="char:EOLhyphen"/>vent and cure this grief; for thoſe that la<g ref="char:EOLhyphen"/>bour much, are ſeldom or never troubled with it, as is evidently ſeen, which to thoſe that uſe little ſtirring or motion of their bodies, are moſt ſubject unto: for the out<g ref="char:EOLhyphen"/>ward parts of their bodies are cold, ſo that their blood, together with the humours, remain within, neither have they any eva<g ref="char:EOLhyphen"/>cuation by the pores of the body, as Natur<g ref="char:EOLhyphen"/>requireth, to conſume this Rheumatick hu<g ref="char:EOLhyphen"/>mour, which then ſeeketh another paſſage. Then the Patient ſpits much, or elſe a con<g ref="char:EOLhyphen"/>tinual running at the Noſe, or elſe it ſlily trickles downs upon his Lungs, and cauſeth Coughs, Ptiſicks, Conſumptions of the Lungs, and Ulcerations: you muſt needs confeſs what I ſay is really true.</item>
+                  <item>2. I adviſe you to eat hot meat at meals, and eſpecially well reſted, for I tell you hot meat warms the ſtomach, and ſtirs up natu<g ref="char:EOLhyphen"/>ral heat through the whole body, and ſo
+<pb n="31" facs="tcp:154271:20"/>digeſteth the humours, but withal talk and be merry at the Table.</item>
+                  <item>3. Be ſure to keep thy head and neck warm, and thy feet likewiſe dry and warm.</item>
+                  <item>4. Drink ſparingly, and touching thy Drink obſerve theſe few Rules.
+<list>
+                        <item>1. Let thy Drink be ſomewhat ſtrong, and not ſmall, for ſmall beer is wateriſh, and ſo it will add to thy diſeaſe.</item>
+                        <item>2. If thou drink, drink only at the end of thy meals, for in ſo doing thou wilt ſuppreſs that moiſture which would aſ<g ref="char:EOLhyphen"/>cend.</item>
+                        <item>3. Let thy Drink be not over ſtale, ſowr or ſharp.</item>
+                        <item>4. Drink neither White nor Rheniſh Wine.</item>
+                        <item>5. If thou drink, take a Glaſs of good Claret well Sugered in the midſt of thy meat.</item>
+                     </list>
+                  </item>
+                  <item>5. Faſt and watch, for theſe dry the body. I would not have you riſe early, faſt long, eat little, and ſit up late: but in ſtead of thoſe eat freely, and drink lit<g ref="char:EOLhyphen"/>tle, ſleep hard, but lie warm, for then thy
+<pb n="32" facs="tcp:154271:21"/>body will be as if thou didſt labour or ex<g ref="char:EOLhyphen"/>erciſe. Now (dear Hearts) watching is unnatural, it makes a dry ſenſeleſs brain, it cauſeth ſore eyes, and a cold wateriſh ſtomach, which is worſe than all.</item>
+                  <item>6. Go into a warm air, and keep thy felt warm.</item>
+                  <item>7. Hold your breath now and then hard, for this forceth the blood to the outward parts of the body, and cauſeth a ſtronger Circulation, which turneth with the ſtream the courſe of theſe Rheumatick humours.</item>
+               </list>
+               <p>Now for cure,</p>
+               <p>If any man will follow theſe Rules, that ſo he may continue his health, (or elſe it is vain to ſeek help) firſt, I adviſe you to take ſix ſpoonfuls of my Apozem, an hour before he riſeth, ſo do for two days, the, third day at night going to Bed, burn half a Pint of Canary, with a branch or two of Roſemary, brew it with ſome Sugar, and the Yolk of a New-laid Egge, and drink it off hot, and lie hot all night, this will digeſt and conſume thoſe Rheumatick humours: Drink this
+<pb n="33" facs="tcp:154271:21"/>Wine ſo prepared three nights toge<g ref="char:EOLhyphen"/>ther.</p>
+               <p>Note, if the party be lean, and full of Blood, in ſtead of Sack, uſe Ale, for Sack will inflame the Blood.</p>
+            </div>
+            <div n="14" type="chapter">
+               <pb n="34" facs="tcp:154271:22"/>
+               <head>CHAP. XIV. For the Yellow Jaundiſe, and all Obſtru<g ref="char:EOLhyphen"/>ctions of the Liver.</head>
+               <p>THe Yellow Jaundiſe proceedeth of Choler mixed with Blood, and ſo diſperſed over the whole body.</p>
+               <p>There are divers cauſes of this diſeaſe, but I ſhall only treat of what is moſt uſu<g ref="char:EOLhyphen"/>al, and only name the reſt.</p>
+               <list>
+                  <item>1. The biting of a Venomous Beaſt will cauſe it.</item>
+                  <item>2. The going away of an hot Feaver will do the like.</item>
+                  <item>3. The Inflammation of the Liver will make ſhew of the ſame.</item>
+                  <item>4. The weakneſs of the Gall, which is not able to draw from the Liver thoſe Cho<g ref="char:EOLhyphen"/>lerick humours, but ſuffereth them to be carried with the blood through the body, and ſo colours it yellow.</item>
+                  <item>5. The Jaundiſe is uſually cauſed by ob<g ref="char:EOLhyphen"/>ſtruction
+<pb n="35" facs="tcp:154271:22"/>of thoſe Veſſels that are between the Liver and the Gall; which being ſtop<g ref="char:EOLhyphen"/>ped, the Cholerick humour cannot paſs into the Gall, but is carried with the blood into the body, and ſo ſtaineth it yellow.</item>
+                  <item>6. It is commonly through the obſtru<g ref="char:EOLhyphen"/>ction of the paſſage from the Gall to the Bowels, for that being ſtopped, the Gall is not able to employ it ſelf, but the ex<g ref="char:EOLhyphen"/>crementitious Choler is repelled, and re<g ref="char:EOLhyphen"/>turneth into the body; which otherwiſe, ſhould colour and ſtain the excrement yel<g ref="char:EOLhyphen"/>low.</item>
+               </list>
+               <p>In theſe three laſt ſorts the excrement is white, and the Patient ſeeleth an heavineſs in his right ſide, and theſe are common, and are thus infallibly to be cured; firſt, cleanſe your body with my Apozem for two or three days, then take this Drink morning and evening after.</p>
+               <p>℞ <hi>cortex interior Sambuci &amp; Barberior. an.</hi> p. i. <hi>Linaria</hi> m. i. <hi>rad. Pratenſis maria, A<g ref="char:EOLhyphen"/>maradulcis an.</hi> ℥ii. <hi>Cichor.</hi> ℥i. <hi>Croci</hi> ℈i. <hi>Ga<g ref="char:EOLhyphen"/>rioph. Macis an.</hi> gr. x. <hi>Zing.</hi> 
+                  <g ref="char:dram">ʒ</g>s. <hi>Ser. Lact.</hi> 
+                  <abbr>lb</abbr>ii. f. <hi>decoct. adde Colatur. Sacch. rub. q. s.</hi> If this diſtemper ſeems rebellious, take
+<pb n="36" facs="tcp:154271:23"/>this which never fails: ℞ <hi>rad. Brion. Alb.</hi> ℥s <hi>fol. petroſ.</hi> m ſs. <hi>vini Albi</hi> 
+                  <abbr>lb</abbr>i. <hi>f. decoct.</hi> add <hi>Sacchar.</hi> i. ſ. Take a good draught of this in a morning faſting hot, and ſweat upon it, and in thy ſweat drink the reſt; and if you are dry afterwards, drink Poſ<g ref="char:EOLhyphen"/>ſet-drink, for the more he ſweateth and drinketh, the more the veſſels are opened, and the matter digeſted, and the Jaundiſe ſooner cured. After this ſweating, the next day take ſix or ſeven ſpoonfuls of my un-valuable Apozem, for that will carry off that corruption. Now if the Jaundiſe is not cured by once ſweating, but ſhews it ſelf, then ſweat again once more as you did before: after this ſame manner is cured all Obſtructions of the Liver.</p>
+               <p>Now, my Brethren, I have ſhewn you to cure many Diſeaſes of the upper Ven<g ref="char:EOLhyphen"/>tricle, after a new way, and I think with as ſafe and ſpeedy a remedy as ever was practiſed ſince Phyſick hath had a being: Now I will ſhew you to cure methodically the Diſeaſes of the lower Ventricle.</p>
+            </div>
+            <div n="15" type="chapter">
+               <pb n="37" facs="tcp:154271:23"/>
+               <head>CHAP. XV. For the Obſtructions of the Spleen, the hardneſs and ſwelling thereof. For the Black Jaundiſe, and alſo the He<g ref="char:EOLhyphen"/>morrhoids or Pyles, and Scurvy, which is much ſubject to Engliſh Bodies.</head>
+               <p>AS the Yellow Jaundiſe comes of Cho<g ref="char:EOLhyphen"/>ler, ſo theſe diſtempers of Melan<g ref="char:EOLhyphen"/>choly, joyning with the blood, is diſperſed over the whole body. He that hath the Black Jaundiſe, hath always a dry, wither<g ref="char:EOLhyphen"/>ed and black body; and my Friends, it is difficult to be cured, and likewiſe it requi<g ref="char:EOLhyphen"/>reth great diligence of the Patient to ob<g ref="char:EOLhyphen"/>ſerve what is enjoined him: for this hu<g ref="char:EOLhyphen"/>mour is very ſtubborn, and without great digeſtion yields to no purgation whatſoever, and that is the reaſon our Phyſitians now adays are ſo much fool'd in the practiſe; nay, that is the reaſon ſo many Quacks and Empiricks are made, which the common people judge both to be alike able in judg<g ref="char:EOLhyphen"/>ment.
+<pb n="38" facs="tcp:154271:24"/>And now for the cure of theſe hard diſtempers, obſerve this method, and you ſhall not fail of your expectation. ℞ <hi>Ce<g ref="char:EOLhyphen"/>terach Cutis interior. Fraxini radix Brion. Alb. Petroſ. an.</hi> ℥ii. <hi>Ser. Lact.</hi> 
+                  <abbr>lb</abbr>xii. <hi>f. de<g ref="char:EOLhyphen"/>coct. adde Sacch. q. s.</hi> Take of this decocti<g ref="char:EOLhyphen"/>on a good draught every morning faſting, and in it two ſpoonfuls of my Apozem, and walk well after it, or elſe labour or exerciſe thy ſelf that thou mayſt heat thy body, and ſtir thy blood, that this drink may be diſperſed thorowly in thy body: ſo do three weeks or a month together if oc<g ref="char:EOLhyphen"/>caſion ſerves. For I tell you ſeriouſly, the drink ſo prepared digeſteth the melancholy humour, and makes it fit for purgation; and the Apozem of mine given with it, carrieth it off ſweetly. Good people I tell you, that all the Authors that ever treated of theſe diſtempers, never gave you an in<g ref="char:EOLhyphen"/>ſight of curing rightly, but preſcribe a certain ſort of Pills, which have either black Hellebore, Colloquintid and other ſtuff which is good only to choak Daws withal. I would have you to obſerve withal, to embrocate your left ſide with Oyl of Wormwood, or an Oyl made of Briony.</p>
+            </div>
+            <div n="16" type="chapter">
+               <pb n="39" facs="tcp:154271:24"/>
+               <head>CHAP. XVI. For the Green Sickneſs.</head>
+               <p>THis diſtemper happeneth by reaſon of the obſtruction of the menſtrual courſe of Nature in Virgins, ſo that in time the Liver is ſo weakned, that it is not able to convert the nutriment into blood, and then the digeſtion is raw, and the whole body is filled with water and flegm, in ſtead of good blood. Now the fooliſhneſs of Maidens to abate their high colour, and to look fine, forſake their diet, and eat much traſh, as Apples, Plumbs, Pears, Cherries, <hi>&amp;c.</hi> ſuch raw fruits, and Oatmeal, and raw Milk, which in ſtead of nouriſhing cauſeth nothing but corrupt humours<g ref="char:punc">▪</g> ſo that their countenance looks pale and green<g ref="char:EOLhyphen"/>iſh, they feel a great pain in their heads, with a continual panting or beating, they are very faint, and likewiſe ſhort breathed: Now I will ſhew you a way to cure it with<g ref="char:EOLhyphen"/>out the Powder of Steel, or letting blood in the foot, which is the way of moſt Pra<g ref="char:EOLhyphen"/>ctitioners
+<pb n="40" facs="tcp:154271:25"/>now adays. Firſt therefore for five or ſix days take of my Apozem four ounces at a time; after the taking of this, take of White Briony half an ounce, and boyl it in a pint of Ale, with a blade of Mace, ſweeten it with Sugar, drink a good draught of this hot, and go to bed and ſweat three or four hours, and in thy ſweat<g ref="char:EOLhyphen"/>ing drink off the reſt hot: the next day boil ſome more as before, and drink a good draught in the morning hot an hour before thou rifeſt, and keep thee warm, but not ſweat; uſe this order ten days, or it is bet<g ref="char:EOLhyphen"/>ter to walk, or to uſe ſome exerciſe to ſtir thy blood, and the humours in thy body, than to lie a bed; and withal eat meat of a light digeſtion, and ſo thou ſhalt have thy cure, <hi>Cito, tute &amp; jucunde.</hi>
+               </p>
+            </div>
+            <div n="17" type="chapter">
+               <pb n="41" facs="tcp:154271:25"/>
+               <head>CHAP. XVII. For acute Diſeaſes, as Feavers and A<g ref="char:EOLhyphen"/>gues, <hi>&amp;c.</hi>
+               </head>
+               <p>THeſe diſeaſes are very common, yet there is but, alas, little help for them: but we are got into the Thicket of Brambles and Thorns, that we do not know how to get out, nor ſtrive, and ſo now they are called the ſhame of Phyſitians. A Wilder<g ref="char:EOLhyphen"/>neſs of Medicines now made, but hardly any of them good; and ſo a young Pra<g ref="char:EOLhyphen"/>ctitioner getting into this Wood, cannot get out, unleſs he ſees the Sun at the Me<g ref="char:EOLhyphen"/>ridian, as I may term it, or tract Nature in all her footſteps, and be only a help to it; not by ſtrong Spirits or Quinteſſences, or Mineral Preparations, as your high and mighty Chymiſts do, nor with Golden Pills, or with their high Cordial, or their Juleps, the flegm of Herbs, as your Galeniſts uſe, but with ſpecifical remedies, which I will here ſhew you the way.</p>
+               <pb n="42" facs="tcp:154271:26"/>
+               <p>Firſt therefore, obſerve all Feavers to be either an Inflammation of the vital ſpirits, or of the blood by too much motion, or elſe by putrefaction, or by obſtruction: for you may ſee daily that motion doth heat even to firing, and obſtruction doth exaſperate that heat included, and ſo it breaks out violently, eſpecially in things watry and putrid, as Hay laid up wet at length fires.</p>
+               <p>Now there are three ſorts of Feavers,
+<list>
+                     <item>1. Ephemera,</item>
+                     <item>2. the Putrid,</item>
+                     <item>3. the He<g ref="char:EOLhyphen"/>ctick:
+<list>
+                           <item>The firſt burns the Spirits,</item>
+                           <item>the ſe<g ref="char:EOLhyphen"/>cond the Humours,</item>
+                           <item>the third the ſolid parts:
+<list>
+                                 <item>The firſt like a raging hot Wind, ſcorching all it meets with;</item>
+                                 <item>The ſecond like boiling Water put into a Cask, and heats it with it ſelf;</item>
+                                 <item>The third like an Iron Pot red hot, heats the Water poured into it.</item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+               </p>
+               <p>Now this Hectick Feaver occupies the Bones and Membranes, and conſumes them with an unnatural heat by degrees, and inſenſibly, till at length it cauſeth death.</p>
+               <p>The Putrid Feaver occupies the Blood and Humours, by which the whole Body grows hot.</p>
+               <pb n="43" facs="tcp:154271:26"/>
+               <p>The Ephemera is a more ſubtle flame, feeding upon the ſpirits only, and therefore it continues not long, for either health or death in two or three days follows. And of this ſort are the Malignant and Peſtilen<g ref="char:EOLhyphen"/>tial, which two I ſhall treat of by and by.</p>
+               <p>For a ſimple Ephemera, I ſhall only give thee a general Specifick, which will un<g ref="char:EOLhyphen"/>doubtedly give preſent help, <hi>Deo volente.</hi> ℞ <hi>Suc. Pomor. Silveſt.</hi> ℥iiii. <hi>Succi ſemper vivi</hi> ℥ii. <hi>Lactis rec.</hi> 
+                  <abbr>lb</abbr>ii. <hi>Sant. rub.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>f. decoct,</hi> add <hi>Colatur. Sir. Pap. Errat.</hi> ℥ſs. Drink freely of this Drink as occaſion ſerves: but if this Feaver be not very vio<g ref="char:EOLhyphen"/>lent, give two ſpoonfuls of my Apozem in a morning, and you need not fail of your work. Theſe means are plain and eaſie, and what grows in our own Country.</p>
+               <p>Putrid Feavers are moſt uſual, and they are continual or intermitting: for if the humours putrifie within the Veſſels, and near the heart, the ſpirit riſeth againſt, and kindles them, and never leaves off till it expels the rottenneſs, or be extinguiſhed it ſelf, and this Feaver is continual, and often deadly. But if the humours rot out of their Veſſels that is in the veins and mem<g ref="char:EOLhyphen"/>bers, it is a Feaver intermitting. For the
+<pb n="44" facs="tcp:154271:27"/>ſpirit riſeth up at certain time, and oppoſes that rottenneſs by heat: now this conflict made being far from the heart, (when it is ended) the ſpirit returns home: now there<g ref="char:EOLhyphen"/>fore if this putrid humour be flegm, it ſtill returns to oppoſe it the next day: hence it is called the Quotidian: if it be yellow Cho<g ref="char:EOLhyphen"/>ler, it returns to oppoſe it the third day and it is called the Tertian: if black Choler or Melancholy, the Quartan.</p>
+               <p>The cauſes of theſe are, firſt, Flegm re<g ref="char:EOLhyphen"/>collects it ſelf ſooneſt, and makes new work for the ſpirits, but is withal ſooner cured, and ſo a continual Feaver laſteth not long. Secondly, Melancholy is a dreggy humour, and doth not ſo ſoon recruit it ſelf, and be<g ref="char:EOLhyphen"/>ing tough and vitious, is not ſo eaſily over<g ref="char:EOLhyphen"/>come, and theſe Quartans are of long con<g ref="char:EOLhyphen"/>tinuance. Thirdly, in a Tertian the ſpirit oppoſeth yellow Choler, which is hot of it ſelf, and then there is a terrible hot conflict, and from hence they are called burning Feavers, and they are ſometimes changed one into another, according as one putrified humour or another is oppoſed. Now I have ſhewn you the ſigns and cauſes of theſe Fea<g ref="char:EOLhyphen"/>vers, I will briefly preſcribe a perfect way to cure them.</p>
+            </div>
+            <div n="18" type="chapter">
+               <pb n="45" facs="tcp:154271:27"/>
+               <head>CHAP. XVIII. For the Quotidian Ague.</head>
+               <p>℞ <hi>fol. Centaur. Borag. Beton. an.</hi> m. iii. <hi>Fu<g ref="char:EOLhyphen"/>mar.</hi> m. i. <hi>Bac. Heder.</hi> ℥iiii. <hi>Vini Albi</hi> 
+                  <abbr>lb</abbr>i. Bruiſe the Ingredients, and digeſt them al<g ref="char:EOLhyphen"/>together in Balneo ſeven days, and then draw this off in a Glaſs ſtill with a gentle fire, until you have all the water, which keep in a Glaſs cloſe ſtopped with Wax. Let the Patient drink a quarter of a pint of this Water hot two hours before his fit comes, and keep his bed, an ſweat three or four hours, and in his ſweating let him drink Poſſet-drink hot, and in every draught put in two ſpoonfuls of this Wa<g ref="char:EOLhyphen"/>ter: the next two hours before his fit, do the like in all things as you did before.</p>
+               <p>Now let the Patient be kept well from the Air, and things preſcribed orderly uſed is moſt commonly cured in two days: but if by ſome overſight it continues longer, begin again and uſe the ſame means for two days more: but if you take four or five
+<pb n="46" facs="tcp:154271:28"/>ſpoonfuls of my Apozem firſt before thy ſweating, it will be cured the ſooner.</p>
+               <p>Now if a Child hath a Quotidian, and we cannot give theſe things inwardly. I will ſhew thee a way to cure it by outward things: Take an ounce of Briony-root, and beat it to powder, and half as much Wheat-flower, and boil it in a little Milk till it be like a Poultice, and put it on Clothes be<g ref="char:EOLhyphen"/>ing warmed, and ſpread ſomewhat thick, and bind it to the Childs wriſts; when it is dry, take more freſh, and apply, and you ſhall ſee in four days to be perfectly cured.</p>
+            </div>
+            <div n="19" type="chapter">
+               <pb n="47" facs="tcp:154271:28"/>
+               <head>CHAP. XIX. For the Quartan Ague.</head>
+               <p>THis is a diſeaſe ſo hard to cure, that it hath been accounted ever yet the re<g ref="char:EOLhyphen"/>proach of Phyſitians, for it reſiſteth the force and power of all their Medicines, whether Galenical or Chymical, and doth in deſpight of them triumph over their Pa<g ref="char:EOLhyphen"/>tients. Now, even now will I take an hard matter in hand, but I fear my ſlender way will be ſuſpected greatly by the Rab<g ref="char:EOLhyphen"/>bies of this Age, for the working ſo rare a cure: But being thorowly encouraged both by Reaſon and Experience, I will boldly proceed on and inform you.</p>
+               <p>My Brethren, take on thy two good days (as we call them) being faſting four ounces of my Apozem; the third day, which is thy fit-day, take nothing; the fourth day take of the water which I pre<g ref="char:EOLhyphen"/>ſcribed for the Quotidian, four ounces and better, well warmed, and keep thy bed, and ſweat five or ſix hours, and in thy
+<pb n="48" facs="tcp:154271:29"/>ſweat drink hot Poſſet-drink, and in every draught put three ſpoonfuls of the Water preſcribed, and one ſpoonful of good Wine-Vinegar: continue this ſweating four days together: if the Quartan Ague have not left thee in that time, (which I think is im<g ref="char:EOLhyphen"/>poſſible) then upon thy next fit-day, two hours before the fit comes, take the Water as before, and ſweat again; do ſo only three times on thy fit-days, and obſerve af<g ref="char:EOLhyphen"/>ter this diſeaſe hath left thee, be ſure to take three ſpoonfuls of my Apozem for twelve days, for this Water ſo taken and ſweating withal, doth wonderfully digeſt this melancholy humour, that it excelleth all the preparatives in the world, and my Apozem gently cleanſeth the body, and carrieth it off. <hi>Soli Deo ſit gloria &amp; pote<g ref="char:EOLhyphen"/>ſtas in ſaecula ſaeculorum.</hi> Amen.</p>
+            </div>
+            <div n="20" type="chapter">
+               <pb n="49" facs="tcp:154271:29"/>
+               <head>CHAP. XX. For the Tertian Ague.</head>
+               <p>BE careful to obſerve this method, for I would not bury any thing in obli<g ref="char:EOLhyphen"/>vion, or hide my Talent, for <hi>non nobis nati ſumus.</hi>
+               </p>
+               <p>Firſt, Let the patient take the day he hath not his fit ſix ſpoonfuls of my Apo<g ref="char:EOLhyphen"/>zem, the next day two hours before the fit comes, drink a quarter of a pint of this Water here preſcribed, (℞ <hi>Centaur.</hi> m. vi. <hi>Endive</hi> m. xii. diſtil theſe things bruiſed with a gentle fire, and keep the Water cloſe ſtopped with Wax, let the Glaſs be but half full, for it will keep the better;) and when you have drunk this Water being well warmed with a little Sugar with it, keep your bed, and ſweat three or four hours, and in your ſweat drink poſſet-drink, and un every draught put in two or three ſpoon<g ref="char:EOLhyphen"/>fuls of this Water: uſe this means the ſe<g ref="char:EOLhyphen"/>cond fit, and I queſtion not but you will eradicate this diſeaſe. For I tell you ſeri<g ref="char:EOLhyphen"/>ouſly
+<pb n="50" facs="tcp:154271:30"/>I have cured this diſeaſe, and many more extream hot Feavers, by this Water ſo taken even in one fit; but be ſure after thoſe fits you purge your body with my Apozem, and then you will do all things ſafely; if not, there may happen ſome relapſe.</p>
+            </div>
+            <div n="21" type="chapter">
+               <pb n="51" facs="tcp:154271:30"/>
+               <head>CHAP. XXI. The Hectick Feaver.</head>
+               <p>FOr the which I will preſcribe a Diet, by which many even at deaths door have been recovered, which is this: ℞ <hi>fol. Acetoſ. Calendul. an.</hi> m. i. <hi>Semperviv.</hi> ℥i. <hi>Lact. recent.</hi> 
+                  <abbr>lb</abbr>iii. <hi>Pomatii</hi> 
+                  <abbr>lb</abbr>ſs. <hi>f. decoct.</hi> add <hi>Co<g ref="char:EOLhyphen"/>lat. Sir. Papav. Rub.</hi> ℥ii. When the party is thirſty, drink freely of this: then make this broth: Take a Capon and skin it, and get out all his fat, then bruiſe it in pieces, and put it in a pitcher that holds a pottle of water, and put in it four ounces of Ray<g ref="char:EOLhyphen"/>ſons ſtoned, eight Dates, a Pugil of Bo<g ref="char:EOLhyphen"/>rage and Roſemary-flowers, and likewiſe put in a pint of good Claret, and half a pint of Red Roſe-water, cover the pot cloſe and paſte it round, then put this into a Kettle of water, and ſo make the Kettle boil ſix hours, and be careful in boiling no water comes upon the paſte: then take it out, and ſtrain it, and drink four or five ſpoonfuls of this morning and evening.</p>
+               <pb n="52" facs="tcp:154271:31"/>
+               <p>Or uſe this:</p>
+               <p>Take a young Pig and ſcald it, and cut it in four pieces, and put ſix quarts of run<g ref="char:EOLhyphen"/>ning water in a pipkin, ſcum it clean, and put a large handful of Sage in it, and boil it gently till half be waſted, ſtrain it out, and drink it morning and evening warm. But if the party be not much waſted away, let him take a ſpoonful of my Apozem now and then of a morning, for it will cauſe him to have an appetite.</p>
+            </div>
+            <div n="22" type="chapter">
+               <pb n="53" facs="tcp:154271:31"/>
+               <head>CHAP. XXII. For the Plague, and all Malignant Fea<g ref="char:EOLhyphen"/>vers.</head>
+               <p>THere be three ſpecial cauſes of this diſeaſe:</p>
+               <list>
+                  <item>The firſt is, the juſt judgment of God for the ſins of the people: In this caſe I hold our Divines, that it cometh as it were by the Commandment of God, and then vain is the help of man, when the power of the Almighty worketh to deſtroy; wherefore repentance and amendment of life is the ſalve for this ſore. Yet ſeeing we know not his determinate will and pleaſure, I wiſh no man to neglect ſuch natural means as our Eternal Father hath provided for the preſervation of our natural bodies, leſt by ſo doing we ſin, and tempt our Cre<g ref="char:EOLhyphen"/>ator, and the Preſerver of all Mankind.</item>
+                  <item>The ſecond cauſe proceedeth of the cor<g ref="char:EOLhyphen"/>ruption of the Air, which is of two ſorts, either general or particular: The Air is ge<g ref="char:EOLhyphen"/>nerally
+<pb n="54" facs="tcp:154271:32"/>infected by the diſtemperature of the Heavens, then the weather is long dark, cloudy, foggy, ſtiffling, very hot and moiſt, and alſo our bodies faint, we loath the breath we draw in and out, then it is diffi<g ref="char:EOLhyphen"/>cult to keep meat ſweet, and the Heavens do as it were refuſe to draw the corruption from the earth, but yield down again ſuch as they had taken away before. The Air is particularly infected by the ſmell of dead bodies, eſpecially in fights, when thoſe that are ſlain lies unburied, which infecteth that particular place. Alſo a putrid ſmell in your Fenny and Mariſh ground, and eſpecially the ſmell of ſuch bodies as reſort and lodge very cloſe in one ſmall Room, as in this City of <hi>London,</hi> and then people are ſluttiſh and naſty, which infects the vi<g ref="char:EOLhyphen"/>tal ſpirits, and breeds ſuch corruption; which at laſt burſt out into the Plague.</item>
+                  <item>The third cauſe proceedeth of corrupt humours in mans body, ingendred by bad Diet; and theſe two laſt comes by Gods permiſſion, as the firſt comes by his Com<g ref="char:EOLhyphen"/>mandment.</item>
+               </list>
+               <p>For preventing this heavy Viſitation,
+<list>
+                     <item>1. Make fires in the ſtreets to cleanſe and purifie the Air.</item>
+                     <pb n="55" facs="tcp:154271:32"/>
+                     <item>2. Let people walk out into the fields, to take the freſh Air, and let their Houſes be made clean and ſweet by ſtrowing ſweet herbs, and airing their beds, and opening their windows to let the Air in.</item>
+                     <item>3. Let no Houſe be over-peſtered with too many Lodgers, and let all vagabond and lazie unneceſſary members be forced out, for this will cleanſe a City as a purge will a man that is full of corruption.</item>
+                  </list>
+               </p>
+               <p>For cure, take theſe Obſervations.</p>
+               <p>Take of Endive-water two pound, Cen<g ref="char:EOLhyphen"/>tary-water one pound, Ivy-berries half an handful bruiſed, boil theſe gently a quarter of an hour, ſtrain it out, and diſſolve in it of Mithridate or Venice-Treacle two drams, Sugar an ounce and half, Wine-Vinegar three ſpoonfuls :Now as ſoon as ever the Patient doth complain, and Nature as yet ſtrong, give him a quarter of a pint of this Drink faſting, being warmed, and let him ſweat in his bed eight or ten hours if he can bear it, and in his ſweating drink hot poſſet-drink, and in every draught two or three ſpoonfuls of this drink: when he ri<g ref="char:EOLhyphen"/>ſeth, get him ſome broth, and be careful
+<pb n="56" facs="tcp:154271:33"/>to keep him from the Air: if he do not find eaſe in his ſweating, the next day do the like: this way will cure him without having a ſore, or elſe it will help Nature ſo far, that it will force out the ſore ſpeedi<g ref="char:EOLhyphen"/>ly: unto which uſe theſe Applications: firſt, embrocate the Tumour or Carbuncle with Oyl of Lilies, being warmed, then take two yolks of Eggs, a dram of Saffron pulveriz'd, Linſeed Oyl, and Oyl of Ca<g ref="char:EOLhyphen"/>mom. of each a dram, ſpread it upon Cloth ſomewhat thick, and apply it: uſe this courſe, for it will ſpeedily break it, then dreſs it according to Art: After the ſame manner are cured all Malignant Fea<g ref="char:EOLhyphen"/>vers, and Epidemical Diſeaſes.</p>
+            </div>
+            <div n="23" type="chapter">
+               <pb n="57" facs="tcp:154271:32"/>
+               <head>CHAP. XXIII.</head>
+               <p>MY Friends, I have here given you a brief Method of curing many Diſea<g ref="char:EOLhyphen"/>ſes, a way different from the general road of both the Galeniſts and Chymiſts; if you would but fancy them, they are matters of great moment; they are not Coleworts boi<g ref="char:EOLhyphen"/>led over and over a thouſand times, and crammed in, even to nauſeating: but I tell you farther, it is the only introduction and the right path, if you have little more wit than is told you, to cure all the Diſeaſes of the Body, both with ſpeed and ſafety. It is not a ſuperficial Knowledg that will ever raiſe Love or Admiration. We are all pla<g ref="char:EOLhyphen"/>ced in Natures Garden, why then are we idle? but let us learn the Works of Nature, and pry into her ſecrets, that we may con<g ref="char:EOLhyphen"/>template more things, and with greater de<g ref="char:EOLhyphen"/>light and profit than all our forefathers could ever tell us; for we all know Nature is not barren, to ſpend all upon our fathers, and leave nothing for us their children: if we want an Interpreter, the Maker of Na<g ref="char:EOLhyphen"/>ture
+<pb n="58" facs="tcp:154271:34"/>is the beſt himſelf; is there no God in <hi>Iſrael,</hi> that we ſhould go to enquire of the Gods of <hi>Ekron?</hi> muſt we rob the <hi>Indies</hi> for poyſonous Drugs to cure us, when we have balſamous Herbs enough in our own Gardens, but far fetcht and dear bought always pleaſeth Fools and Ladies.</p>
+               <p>I ſhall now give you ſome Specificks, or Remedies appropriated for many Diſea<g ref="char:EOLhyphen"/>ſes, which things uſed, and cleanſing thy Body with my Apozem, thou ſhalt find them never to fail thee in thy expectati<g ref="char:EOLhyphen"/>on.</p>
+            </div>
+            <div n="24" type="chapter">
+               <pb n="59" facs="tcp:154271:34"/>
+               <head>CHAP. XXIV. For the Stone.</head>
+               <p>R. <hi>Virga Aur. pariet. Saxifrag. an.</hi> m. i. <hi>S. Petroſ. Lithoſperm. an.</hi> ℥ſ. <hi>Bac. Junip.</hi> ℥i. <hi>Alkakeng.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Frax. Clavis</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Licoriza</hi> 
+                  <g ref="char:dram">ʒ</g>vi. <hi>Vini albi</hi> 
+                  <abbr>lb</abbr>iii. <hi>f. decoct.</hi> add <hi>Sir. Dialth.</hi> ℥ii. <hi>Lapis Prunell.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. drink of this morning and evening.</p>
+               <p>
+                  <hi>For the Gout.</hi>
+               </p>
+               <p>℞ <hi>Album Ovi no.</hi> ii. <hi>Sal marin. decrepit. &amp; pulv.</hi> ℥ſ. <hi>Bol. Armen.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>
+                     <g ref="char:V">Ʋ</g>ng. Popul.</hi> ℥ſ. <hi>m. f. Cerot.</hi>
+               </p>
+               <p>
+                  <hi>Or,</hi>
+               </p>
+               <p>℞ <hi>
+                     <g ref="char:V">Ʋ</g>ng. Popul.</hi> ℥ii. <hi>Ol. Vitriol.</hi> 
+                  <g ref="char:dram">ʒ</g>i. ſtir it together, and embrocate the place grieved, but withal take my Apozem, or elſe it avai<g ref="char:EOLhyphen"/>leth but little.</p>
+               <p>
+                  <hi>For to ripen any Boil or Sore, and to break it.</hi>
+               </p>
+               <p>℞ <hi>Ficuum pinguium</hi> ℥i. <hi>Sapon. alb.</hi> ℥ſ <hi>Sal marin. decrepit.</hi> 
+                  <g ref="char:dram">ʒ</g>iii. bruiſe theſe very well, and with Oil of Lillies make an Unguent.</p>
+               <pb n="60" facs="tcp:154271:35"/>
+               <p>
+                  <hi>For a Cough.</hi>
+               </p>
+               <p>℞ <hi>Coepar. Coct.</hi> ℥ii. <hi>Ther. Vinet.</hi> ℥ſ. <hi>Sir. Vi<g ref="char:EOLhyphen"/>ol.</hi> ℥i. <hi>Ol. Amigd. dulc.</hi> ℥ſ. <hi>Ol. Aniſ.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Hy<g ref="char:EOLhyphen"/>ſop. g.</hi> 10. <hi>pul. Enul. Cam. Ireos an.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Saec. cand.</hi> ℥i. <hi>m. f. Electuarium,</hi> take the quanti<g ref="char:EOLhyphen"/>ty of a Nut morning and evening.</p>
+               <p>
+                  <hi>For a Tumour</hi> in Scrotum.</p>
+               <p>℞ <hi>Calom. Arom. Sem. agnus Caſt. an.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>fol. rutae Glaſtum an.</hi> m. i. <hi>Farin. Lini Foernig. an.</hi> ℥ſ. <hi>Faecula Zythi non lupul.</hi> 
+                  <abbr>lb</abbr>i. <hi>f. decoct. adde Farina fabarum, &amp; Ol. Camomel. f. Ca<g ref="char:EOLhyphen"/>taplaſm.</hi>
+               </p>
+               <p>Or This.</p>
+               <p>℞ <hi>
+                     <g ref="char:V">Ʋ</g>vae paſſae ruta Sem. Cumini Ol. Lillior, an. q. ſ.</hi>
+               </p>
+               <p>
+                  <hi>For Strumes, or ſcrophulous Tumours.</hi>
+               </p>
+               <p>℞ <hi>Emp. Diach. cum Gumm.</hi> ℥iv. <hi>ſtorax Artanita Aſſa Foetid. an.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Ol. Parthen.</hi> ℥i. <hi>Amalg.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>m. f. Emplaſt.</hi>
+               </p>
+               <p>Or This.</p>
+               <p>℞ <hi>Gum. Ammoniac.</hi> ℥ii. <hi>
+                     <g ref="char:V">Ʋ</g>ng. Dialth.</hi> ℥i. <hi>rad. brion. alb. pulv.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Cera</hi> ℥ſ. <hi>Reſin. Pini</hi> 
+                  <g ref="char:dram">ʒ</g>vi. <hi>Amalg.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>m. f. Emp.</hi>
+               </p>
+               <p>
+                  <hi>For the Scurvy in the Gums.</hi>
+               </p>
+               <p>℞ <hi>Rad. Torment. Biſtort. an</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>fol. roſ.
+<pb n="61" facs="tcp:154271:35"/>rub. roſm. an. p.</hi> i. <hi>Vini rub.</hi> 
+                  <abbr>lb</abbr>ſ. <hi>f. decoct.</hi> waſh the Gums often with this.</p>
+               <p>
+                  <hi>For a Pleuriſie.</hi>
+               </p>
+               <p>℞ <hi>Olibanum Reſin. pini an.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Cineres Cardui</hi> ℥iſs. <hi>Mel</hi> ℥ſ. <hi>f. Elect.</hi> take this upon the point of a knife, and it will give preſent caſe, and if you take my Apozem, it will perfectly cure it without bleeding.</p>
+               <p>
+                  <hi>For the Worms.</hi>
+               </p>
+               <p>℞ <hi>Mithrid.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Aloes</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Ol. Sabin.</hi> 
+                  <g ref="char:dram">ʒ</g>iſs. make a plaiſter to put to the Navel.</p>
+               <p>
+                  <hi>For Gravel in the Kidneys.</hi>
+               </p>
+               <p>℞ <hi>Ol. Amigd. dul.</hi> ℥ii. <hi>Sir. dialth.</hi> ℥i. take this in the morning faſting.</p>
+               <p>
+                  <hi>For the Pain of the Sides and Spleen.</hi>
+               </p>
+               <p>℞ <hi>Rad. Ariſtol. rot.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Mirrh.</hi> ℈i. <hi>Aqu. Cardui</hi> ℥ii. <hi>Sir. Artemeſia</hi> ℥i. drink this off, being a little warmed.</p>
+               <p>
+                  <hi>For a old Cough, and Pthiſick.</hi>
+               </p>
+               <p>℞ <hi>Rad. brion. pulv.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Mel</hi> ℥ii. <hi>Lohoch de pul. vulp.</hi> ℥ſ. <hi>Sp. Sulph. g.</hi> 10. <hi>f. Elect.</hi> take the quantity of a Nutmeg every morning fa<g ref="char:EOLhyphen"/>ſting.</p>
+               <pb n="62" facs="tcp:154271:36"/>
+               <p>
+                  <hi>To cauſe a ſpeedy Delivery.</hi>
+               </p>
+               <p>℞ <hi>Aq. Brion.</hi> ℥ii. <hi>Mirrh.</hi> 
+                  <g ref="char:dram">ʒ</g>ſ. <hi>Croci g.</hi> 10. drink it out, and if you did but take 2 or 3 days before about 2 or 3 ſpoonfuls of my A<g ref="char:EOLhyphen"/>pozem, you will do your work very eaſie.</p>
+               <p>
+                  <hi>For the Dropſie.</hi>
+               </p>
+               <p>℞ <hi>Suc. Cucumer. agreſt. Ebuli, an.</hi> ℥ii. <hi>Ol. Oliv.</hi> ℥iii. <hi>Cera</hi> ℥i. boil theſe well together, and make an Ointment, and anoint the Bel<g ref="char:EOLhyphen"/>ly every night hot, and take my Apozem e<g ref="char:EOLhyphen"/>very day, thou ſhalt have a ſpeedy Cure.</p>
+               <p>
+                  <hi>For ſpitting of Blood, or bleeding inwardly.</hi>
+               </p>
+               <p>℞ <hi>Hypericon Centinod. plantag. an.</hi> m. i. <hi>Lact. recen.</hi> 
+                  <abbr>lb</abbr>iii. boil theſe together, and drink freely of it.</p>
+               <p>Or This.</p>
+               <p>℞ <hi>Plantag. Lamii albi, an.</hi> m. i. <hi>Lact. re<g ref="char:EOLhyphen"/>cen.</hi> 
+                  <abbr>lb</abbr>iii. and drink it as before.</p>
+               <p>
+                  <hi>For Fluxes.</hi>
+               </p>
+               <p>℞ <hi>Maſtick</hi> ℥ſ. <hi>Aq. fontan.</hi> 
+                  <abbr>lb</abbr>iii. <hi>f. decoct.</hi> add <hi>Sacchar. q. ſ.</hi> drink often of it, but carry off the peccant humour by my Apo<g ref="char:EOLhyphen"/>zem: if it proves violent, give this Gliſter.</p>
+               <p>℞ <hi>Torment.</hi> ℥ſ. <hi>fol. plant. roſ. rub. an.</hi> m. i. <hi>Aq. Cordei</hi> 
+                  <abbr>lb</abbr>i. <hi>f. decoct.</hi> add <hi>Mel roſ.</hi> ℥i. <hi>vitel. ovi no.</hi> i. <hi>f. Enema.</hi>
+               </p>
+               <pb n="63" facs="tcp:154271:36"/>
+               <p>
+                  <hi>For a ſore Throat.</hi>
+               </p>
+               <p>℞ <hi>Auricul. Indae. pipernig. Pirethruman.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>f. pulvis:</hi> put this in your Throat, then apply outwardly a Cataplaſme <hi>de ficubus rad. Althen. an.</hi> ℥i. <hi>Myrrh.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Croci</hi> 
+                  <g ref="char:dram">ʒ</g>ſ. firſt embrocate the place with <hi>Ol. Camomel.</hi> and waſh it with this lotion water: ℞ <hi>Aqua plant. Verb. an.</hi> ℥ii. <hi>ſacc. Saturni gr.</hi> 10. <hi>Sir. Cruſſul.</hi> ℥i. but if you will make ſpeedy haſt give firſt 3 or 4 ſpoonfuls of my Apozem. and then uſe the means preſcribed, and you will cure it without bleeding.</p>
+               <p>
+                  <hi>To cauſe <g ref="char:V">Ʋ</g>rine.</hi>
+               </p>
+               <p>℞. <hi>Rad. Alth.</hi> ℥ſ. <hi>rad. foenicul. petroſ. an.</hi> ℥i. <hi>ſem. petroſ. Lithoſper. an.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Aq. Font.</hi> 
+                  <abbr>lb</abbr>ii. <hi>f. decoct. adde Sir. Dialth.</hi> ℥iſs. drink of this morning and evening.</p>
+               <p>
+                  <hi>For the Hemorrhoids and Piles.</hi>
+               </p>
+               <p>℞ <hi>Fol. plant.</hi> m.ii. <hi>Ol. lini</hi> ℥i. <hi>f. Cata<g ref="char:EOLhyphen"/>plaſm.</hi> apply it warm to the place grieved.</p>
+               <p>
+                  <hi>For bleeding at the Noſe.</hi>
+               </p>
+               <p>If it be critical, firſt take my Apozem, then apply this to thy forehead: ℞ <hi>Terra Sigill. bol. verus ſang. Dracon. an.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Album
+<pb n="64" facs="tcp:154271:37"/>ovi. m. f. Catapl.</hi> put thy feet in warm wa<g ref="char:EOLhyphen"/>ter, and this will do without letting of blood.</p>
+               <p>
+                  <hi>For Burning and Scalding.</hi>
+               </p>
+               <p>℞ <hi>Fol. plant. ſemperviv. conſolid. an.</hi> m.ii. <hi>ſtercus ovil.</hi> ℥ii. <hi>pingued. ovium</hi> 
+                  <abbr>lb</abbr>i. make an Ointment.</p>
+               <p>Or this.</p>
+               <p>℞ <hi>Stercus Anſer</hi> 
+                  <abbr>lb</abbr>i. <hi>Axung. Porcin.</hi> 
+                  <abbr>lb</abbr>ii <hi>f. <g ref="char:V">Ʋ</g>ng.</hi> anoint the place hot twice a day, and clip not the Bliſters till the third day: or elſe as ſoon as it is done anoint it with your common black Sope, and it will never bliſter.</p>
+               <p>
+                  <hi>For a Fellon.</hi>
+               </p>
+               <p>It is very troubleſom, and ſo common, that many have loſt a Joint for want of good means: Take this though trivial, and it will do thy work: ℞ <hi>Acet Vini opt. &amp; furfur tritici,</hi> boil theſe together, and apply it hot as the Patient can endure it, dreſs it twice a day; ſo do for 3 or 4 days, if occaſion ſerves; if the place be ten<g ref="char:EOLhyphen"/>der, anoint it with a little Oil before thou aplieſt thy Poultice: after the ſame manner
+<pb n="65" facs="tcp:154271:37"/>are cured any hot Swellings, and Eriſipe<g ref="char:EOLhyphen"/>pelas Tumours.</p>
+               <p>
+                  <hi>For Ringworms and Tetters.</hi>
+               </p>
+               <p>Bath the place two or three times a day with the Juice of Celendine, and it will cer<g ref="char:EOLhyphen"/>tainly cure thee.</p>
+               <p>
+                  <hi>For the Tooth-ach.</hi>
+               </p>
+               <p>Take the Juice of Tithymal and Wheat-flower, and make Paſt with it, if thy Tooth be hollow put ſome of it in, and alſo put ſome in a cloth, and hold it to thy Gums; but if thy body be moiſt and rheumatick, follow that method in the Chapter preſcri<g ref="char:EOLhyphen"/>bed for Catarrhs and Rheums.</p>
+               <p>
+                  <hi>For Worms of all ſorts.</hi>
+               </p>
+               <p>℞ <hi>Centor. Abſinth. marin. ana</hi> ℥i. <hi>Sene A<g ref="char:EOLhyphen"/>lex.</hi> ℥ſ. <hi>Vini Hiſpan.</hi> ℥iv. <hi>Mel</hi> ℥iii. pulverize thoſe things that are to be pulverized, and mix altogether, and put it in a clean blad<g ref="char:EOLhyphen"/>der, and tie it cloſe, and hang it in the Chimney till it be a hard maſs, then give it in what you pleaſe: the quantity to be taken is from 10 <hi>Grains</hi> to 30, or 40, it killeth all Worms, and cauſeth them to void.</p>
+               <pb n="66" facs="tcp:154271:38"/>
+               <p>
+                  <hi>For a malignant Feaver.</hi>
+               </p>
+               <p>℞ <hi>Radix Scoreoner.</hi> ℥i. <hi>Licorit.</hi> 
+                  <g ref="char:dram">ʒ</g>iii. <hi>Corn. Cervi</hi> ℥ſ. <hi>fol. Melij.</hi> m. i. <hi>uvae Corinth.</hi> ℥ii. <hi>Sem. Coriand.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. <hi>Aq. Font.</hi> 
+                  <abbr>lb</abbr>ii. <hi>adde Sir. Limon.</hi> ℥ii. <hi>f. decoct.</hi> drink now and then a ſmall draught of it.</p>
+               <p>
+                  <hi>For Green Wounds.</hi>
+               </p>
+               <p>℞ <hi>Panancolon.</hi> m. iv. <hi>Axung. Porcin.</hi> ℥iv. <hi>Ol. Oliv.</hi> 
+                  <abbr>lb</abbr>ſ. <hi>Cera Citrin.</hi> ℥iii. <hi>f. ung.</hi>
+               </p>
+               <p>
+                  <hi>For the Shingles.</hi>
+               </p>
+               <p>℞ <hi>Suc. Plantag. ſemperviv. ſolan. Acet. Vi<g ref="char:EOLhyphen"/>ni opt. <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi> ℥ii.<hi>miſce.</hi> bath the place hot.</p>
+               <p>
+                  <hi>For Tetters and Ringworms.</hi>
+               </p>
+               <p>℞ <hi>Aloes cicotr.</hi> ℥i. <hi>Acet. Vini opt.</hi> ℥iii. <hi>Ol. Vitr.</hi> gr. xxx. <hi>miſce.</hi>
+               </p>
+               <p>
+                  <hi>For Bruiſes.</hi>
+               </p>
+               <p>℞ <hi>Noſt. Apozem.</hi> ℥ii. <hi>Sperma Ceti</hi> gr. xxx. externally.</p>
+               <p>℞ <hi>Ol. Petrolei</hi> ℥i. <hi>Ol. Tereb.</hi> ℥ſ. <hi>Ol. Roſ. &amp; cer. Citr. an.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. embrocate the place hot.</p>
+               <p>
+                  <hi>For Blackneſs or Blewneſs in the Face.</hi>
+               </p>
+               <p>℞ <hi>
+                     <g ref="char:V">Ʋ</g>ung. Dialth.</hi> ℥ſ. <hi>Sperm. Ceti</hi> gr. xx. <hi>miſce.</hi>
+               </p>
+               <pb n="67" facs="tcp:154271:38"/>
+               <p>
+                  <hi>For Aches.</hi>
+               </p>
+               <p>℞ <hi>Ol. Laurin.</hi> ℥i. <hi>Ol. Vitr.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>miſce.</hi>
+               </p>
+               <p>
+                  <hi>For the Piles.</hi>
+               </p>
+               <p>℞ <hi>Album Graecum</hi> ℥i. <hi>Ol. Lini</hi> ℥ii. <hi>Cera</hi> ℥i. <hi>f. ung.</hi>
+               </p>
+               <p>
+                  <hi>For a weak Back.</hi>
+               </p>
+               <p>℞ <hi>Conſolid. Hormin. Centinod. an.</hi> m. i. <hi>Aq. Font.</hi> 
+                  <abbr>lb</abbr>ii. <hi>f. decoct adde Vitell. ovi no.</hi> ii. <hi>nuc. moſc. n<hi rend="sup">o</hi>.</hi> i. <hi>Sacch.</hi> ℥ii. outwardly.</p>
+               <p>℞ <hi>Empl. Dialth. Simp. Diapal. an.</hi> ℥ſs. <hi>Bol. ver.</hi> 
+                  <g ref="char:dram">ʒ</g>i. <hi>Ol. Roſ.</hi> 
+                  <g ref="char:dram">ʒ</g>.ij <hi>f. Empl.</hi>
+               </p>
+               <p>
+                  <hi>For Deafneſs.</hi>
+               </p>
+               <p>℞ <hi>Ol. Lillior.</hi> ℥ſs. <hi>Bac. Laur.</hi> 
+                  <g ref="char:dram">ʒ</g>i. boil this together, then put a drop or two in the Ear.</p>
+               <p>
+                  <hi>For ſore Eyes.</hi>
+               </p>
+               <p>℞ <hi>Lap. Calam. uſti &amp; in</hi> ℥ij. <hi>Vin. alb. ex<g ref="char:EOLhyphen"/>tinct.</hi> ℥ſs. <hi>Sacchar. alb. cand.</hi> 
+                  <g ref="char:dram">ʒ</g>iij. <hi>miſce.</hi>
+               </p>
+               <p>
+                  <hi>For the Dropſie.</hi>
+               </p>
+               <p>℞ <hi>Stere. Vaccin,</hi> 
+                  <abbr>lb</abbr>ſs. <hi>Sem. Aniſ. Cumini pulv. an.</hi> 
+                  <g ref="char:dram">ʒ</g>ii. apply it hot.</p>
+            </div>
+            <div n="25" type="chapter">
+               <pb n="68" facs="tcp:154271:39"/>
+               <head>CHAP. XXV.</head>
+               <p>MY Brethren and Friends, I have gi<g ref="char:EOLhyphen"/>ven in a Bill likewiſe to Mr. <hi>Fiſher</hi> aforeſaid, for to make a drink which will really diſſolve the Stone, ſo that any man may be cured, without that rigid operation of Cutting, and likewiſe it is the only way to prevent the ſame for the future.</p>
+            </div>
+            <div n="26" type="chapter">
+               <pb n="69" facs="tcp:154271:39"/>
+               <head>CHAP. XXVI.</head>
+               <p>NOw will I give you rules for to pre<g ref="char:EOLhyphen"/>ſerve health, which being obſerved, a man may live to extreme old age: firſt, uſe not theſe things which greatly digreſs from that conſtitution and mediocrity in which man was created: Now all Phyſi<g ref="char:EOLhyphen"/>cians do call every thing hot or cold, in reſpect of the Nature of man, ſo things may be hot in the 1, or 2, or 3, or 4 degree; ſo likewiſe on the contrary for coldneſs: ſo we may gather from hence like deſireth like, and abhorreth the contrary: Now thoſe things that are like, and agreeth beſt with the Nature of man, are good, wholeſom, uſual Meats and Drinks, a dry, freſh and ſweet Air, moderate Sleep and Labour; which although they were allotted to us for a puniſhment by God our Creator, yet mercifully withal he hath made it a neceſ<g ref="char:EOLhyphen"/>ſary means to preſerve our Healths. Now thoſe things which diſagree moſt with our Bodies are theſe, (which to tell you I am a<g ref="char:EOLhyphen"/>fraid to pleaſe all men:) All Wines, Spi<g ref="char:EOLhyphen"/>ces,
+<pb n="70" facs="tcp:154271:40"/>ſalt Meats, and all hot things which are ſo by nature; which a man may know by the Taſt; for they either bite like Pepper, or fret like Salt, or elſe leave ſome manifeſt heat in the mouth. Now on the contrary, avoid all raw Fruits, and cold Herbs, and ſuch things of the ſame nature; much uſe of Sawces deviſed by ſuch whom many times our juſt God puniſheth by want of Appe<g ref="char:EOLhyphen"/>tite, and having Meat at will, as the poor for want of Meat have a good Appetite. And likewiſe ſhun to live in thick foggy air, or idlely, and exceed not in eating or drink<g ref="char:EOLhyphen"/>ing, which we call good fellowſhip, ſleep not too much, or watch much, or uſe much thoſe venereal actions, but uſe theſe things moderately and diſcreetly.</p>
+               <p>Now, Good People, ſeeing all people are ſubject to Death, which was allotted by our Creator to Man for Sin; and ſo we are ſenſible that our Bodies, as yielding thereunto, do by degrees gather always Corruption: Now to preſerve our Healths, as much as in us lies, until we have run that race which Almighty God hath appointed, I ſhall commend unto you, and wiſh you all to make uſe of, this Receipt which follow<g ref="char:EOLhyphen"/>eth.</p>
+               <pb n="71" facs="tcp:154271:40"/>
+               <p>Take Borage and Parſley of each an handful, boil in a quart of Poſſet-drink, ſtrain it out, and keep it in a clean veſſel, drink a good draught of this every morn<g ref="char:EOLhyphen"/>ing, putting therein two or three ſpoonfuls of my Apozem before-mentioned, and ſo continue drinking it ten days every Spring and every Fall; if thy Body requires more, drink it longer: By this means thou maiſt prevent many Diſeaſes, and keep thy Bo<g ref="char:EOLhyphen"/>dy in a very good condition: This makes Women apt to conceive, if (during the ta<g ref="char:EOLhyphen"/>king) they live chaſt, and maketh Men quick and nimble in all their proceedings, and, may I tell you, what not. Now to the only wiſe God the Father, Son and Holy Ghoſt I aſcribe all Honour, and Glory, and Adoration for ever. <hi>Amen.</hi>
+               </p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:154271:41" rendition="simple:additions"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
